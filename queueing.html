@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Avis Qiu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<strong>Avis Qiu's Blog</strong> 
+									<ul class="icons">
+										<li><a href="https://www.instagram.com/qxzzzz" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<!--<li><a href="https://github.com/AvisChiu" class="icon brands fa-github"><span class="label">GitHub</span></a></li>-->
+										<!--<li><a href="#" class="icon brands fa-weibo"><span class="label">Weibo</span></a></li>-->
+										<li><a href="https://www.linkedin.com/in/xizhe-avis-qiu-4611ab181/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										
+									</ul>
+								</header>
+
+
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h2>Queueing Theory<br />
+										</header>
+
+										<p  style="text-align:justify"> 排隊理論是通訊工程領域的一門重要學科，常用於移動網路，大型網路系統的效能分析。 
+										相較於現今被討論最多的人工智慧， 排隊理論顯得非常小衆，因此在網路上也很少有一些入門的資料可以參考，更難找到系統整理的講義。 
+										基於此，我會分享我學習這門課程整理的的所有資料，希望可以幫助到那些想瞭解此學科但又不知從哪開始的同學。 
+										</p>
+
+										<p  style="text-align:justify"> 所有資料的内容，是基於台灣大學電機系開設的<a href="https://web.ee.ntu.edu.tw/course_detail.php?CA_ID=5149" >排隊理論</a>課程。
+										我在念碩士的時候修習了這門課，所有筆記都有抄，學期成績還算OK。 
+										對於課堂上的内容，我會有一定程度的瞭解，同時在課上沒有講到的東西，我也有所整理，如一些關於機率的内容。 
+										因爲排隊理論並非我平時學習的重點，因此更加深入的理論我還無法領會，也無法用更直白的方式講述。 
+										整理這些資料一方面是方便自己回顧這門學科，另一方面希望能幫助到像入門的同學。
+										當然，看這些資料的同學需要事先對排隊理論有基本的認識，還需要對機率和微積分有比較好的感覺，這樣看一些數學證明的時候，前因後果才會更加清晰。
+											但不管怎樣，衆口難調，僅相互包容，相互進步。
+										</p>
+
+										
+				
+									</div>
+									<span class="image object">
+										<img src="images/qt.jpg" />
+									</span>
+								</section>
+
+
+								
+
+								<section>
+									<header class="major">
+										<h2>Basic Knowledgement</h2>
+									</header>
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Basic Notation.pdf">Basic Notation</a></li>
+									</ul>
+
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Performance Measurement.pdf" >Performance Measurement</a></li>
+									</ul>
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Little's Law.pdf" >Little's Law</a></li>
+									</ul>
+
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Define a Queueing System.pdf" >Define a Queueing System</a></li>
+									</ul>
+
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Exercise General Formulation with GGC.pdf" >Exercise: General Formulation with G/G/c, G/G/1, G/G/c/k queue</a></li>
+									</ul>
+
+								
+							
+								
+								</section>
+
+								<section>
+									<header class="major">
+										<h2>Advanced Knowledgement</h2>
+									</header>
+									<ul class="actions"> 
+											<li><a href="powerpoint/PDF/Poisson Process and Exponetial Distribution.pdf" >Poisson Process and Exponetial Distribution</a></li>
+									</ul>
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Union Superposition and Decomposition Property.pdf" >Union Property, Superposition and Decomposition Property</a></li>
+									</ul>
+									
+
+									
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Markovian Property of the Exponetial Distribution.pdf" >Markovian Property of Exponetial Distribution</a></li>
+									</ul>
+
+									
+
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/PASTA Property.pdf" >PASTA Property</a></li>
+									</ul>
+									<ul class="actions">
+											<li><a href="powerpoint/PDF/Markov Process.pdf" >Markov Process</a></li>
+									</ul>
+
+								</section>
+
+								<section>
+									<header class="major">
+										<h2>Simple Markovian Queueing Models</h2>
+										<p  style="text-align:justify"> 
+										Note that 我們的最終目的是想解出整個排隊系統的穩定狀態，這樣可以評估各系統狀態的機率大小, 然後決定我們如何提升系統的效能，如增加伺服器。 很多排隊系統都模擬為 Markovian Queueing Model，
+										這並不是說排隊系統本來就可以模擬成馬可夫過程。 之所以這樣模擬，是因爲我們基於很多假設，前面的關於機率的一大堆都在為排隊系統做一個假設，就是進入系統和系統中的服務都遵循著特定的分佈（泊松分佈和指數分佈），有了這些假設，發現使用 Markov Chain 是一個很好的求穩態的方法。 如果排隊系統假設為任意分佈，如先前提到的 G/G/c, 也可以用 Markov Chain 的框架， 但解起來並不是一件容易的事。 總而言之，Markov Chain 是一個解決排隊論問題的一種工具。
+										</p>
+										<p  style="text-align:justify">
+										排隊理論最早就是為解決通信網絡的問題，在現實生活中，其實沒有一些先驗的分佈假設。 但這麽多年來，人們依舊是基於一些假設，使用一些工具。 然而，對於通信系統而言，這些假設好死不死非常符合通訊系統的特徵，還不出一點問題，因此整套工具也一直被沿用至今，對一些問題的假設也一直被沿用。
+										</p>
+									</header>
+									
+									<ul class="actions">
+											<li><a href="https://drive.google.com/file/d/1MZLLaioxHS6vd9qCmh85b8AeuG4KhJfC/view?usp=sharing" >Birth-Death Processes</a></li>
+									</ul>
+									<ul class="actions">
+											<li><a href="" >Steady State Probability</a></li>
+									</ul>
+									
+									
+								</section>
+
+							<!-- Content 
+								
+									
+									
+
+									<h2>Basic Knowledgement</h2>
+									<p>wait for update</p>
+									
+
+									<hr class="major" />
+
+									<h2>Markov Chain</h2>
+									<p>wait for update</p>
+								
+
+									<hr class="major" />
+
+									<h2>Continous Time Markov Chain</h2>
+									<p>wait for update</p>
+									
+									<hr class="major" />
+
+									<h2>Markovian Chain Model</h2>
+									<p>wait for update</p>
+									
+
+								</section>
+							-->
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							
+
+							<!-- Menu -->
+								<nav id="menu">
+                                    <header class="major">
+                                        <h2>Blog</h2>
+                                    </header>
+                                    <ul>
+                                        <li><a href="index.html">Homepage</a></li>
+                                        <li>
+                                            <span class="opener">Interests</span>
+                                            <ul>
+                                                <li><a href="queueing.html">Queueing Theory</a></li>
+                                                <li><a href="index.html">Mobile Communication Networking</a></li>
+                                                <li><a href="index.html">Machine Learning</a></li>
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        <li><a href="CV.html">About Qiu</a></li>
+                                        
+
+                                    </ul>
+                                </nav>
+
+							
+
+							<!-- Section -->
+							
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contact</h2>
+									</header>
+									
+									<ul class="contact">
+										<li class="icon solid fa-envelope">avisqiu@gmail.com / avisqiu@sina.com</a></li>
+										
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
